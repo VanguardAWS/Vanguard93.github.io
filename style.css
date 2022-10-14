@@ -1,16 +1,20 @@
-.parallax {
+body {
+    margin: 0;
+  }
+  .parallax {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    position: relative;
     width: 100vw
   }
-  p {
-    font-size: 20px;
-    position: absolute;
-    text-align: center;
-    top: 20%;
-    width: 100%;
-  }
+  .parallax:nth-of-type(1) {  
+    background-image: url('https://cdn10.picryl.com/photo/1995/07/01/a-us-air-force-mh-53-pave-low-helicopter-on-a-training-mission-exact-date-shot-04adc3-1600.jpg');
+  } 
+  .parallax:nth-of-type(2) {  
+    background-image: url('https://www.worldoil.com/media/14387/ocean-infinity-auv.jpg');
+  } 
+  .parallax:nth-of-type(3) {  
+    background-image: url('http://www.morenormalthannot.com/wp-content/uploads/2015/02/matrix.jpg');
+  } 
